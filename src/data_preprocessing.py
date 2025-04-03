@@ -14,7 +14,7 @@ nltk.download('wordnet')
 
 def load_data(file_path):
     """Load the Twitter data from CSV"""
-    df = pd.read_csv(file_path)
+    df = pd.read_csv("data.csv", encoding='utf-8')
     # Keep only English tweets
     df = df[df['Language'] == 'en']
     # Reset index after filtering
