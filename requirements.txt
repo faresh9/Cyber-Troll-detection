@@ -1,0 +1,33 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.23.0
+
+# NLP
+nltk>=3.8.1
+spacy>=3.5.0
+transformers>=4.30.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Deep Learning Frameworks
+torch>=2.0.0
+tensorflow>=2.12.0  # Optional (choose either PyTorch or TensorFlow)
+keras>=3.0.0
+
+# GPU Support (if available)
+cuda-python>=12.0.0  # For NVIDIA GPUs
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Utilities
+tqdm>=4.65.0
+emoji>=2.2.0
+jupyter>=1.0.0
+
+# Optimized Operations
+scipy>=1.10.0
+openpyxl>=3.1.0  # For Excel files
